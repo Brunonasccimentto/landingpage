@@ -1,0 +1,472 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.montserrat{
+    font-family:  Montserrat, sans-serif;
+}
+.c2{
+    height: 800px;
+    background-image: url(./assets/s8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.text-dark{
+    background: linear-gradient(90deg, rgb(94, 102, 75), rgb(89, 95, 70), rgb(116, 122, 99))!important ;
+}
+.logo{
+    float: left;
+    width: 100px;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+.userIcon{
+    height: 35px;
+    width: 35px;
+    float: left;
+    margin-left: 25px;
+}
+.user{
+    width: 400px;
+    height: 75px;
+}
+.formulario{
+    background-color: #ffffffbb;
+    width: 600px;
+    height: 650px;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.topForm{
+    padding: 25px;
+}
+.topForm p{
+    font-size: 1em;
+    font-weight: lighter;
+    color: rgb(90, 90, 90);
+    margin-top: -10px;
+}
+.topForm h3{
+    font-size: 26px;
+}
+form{
+    padding-top: 50px;
+    margin-top: -80px;
+    
+}
+#converse{
+    background-image: url(./assets/wp2750280.jpg);
+}
+input, select{
+    width: 460px;
+    margin-left: 70px;
+    margin-top: -20px;
+    height: 20px;
+    border: none;
+    background-color: #ffffff04;
+    border-bottom: 1px solid black; 
+}
+#solicitar{
+    border: none;
+}
+.msg{
+    margin-top: 13px;
+}
+select{
+    width: 306px;  
+}
+input:focus{
+    color: black;
+    background-color: #ffffff6c;
+}
+#msg{
+    padding-top: 10px;
+    padding-bottom: 60px;
+    text-align: justify;
+    border: 1px solid black;
+}
+#solicitar{
+    background-color: rgb(21, 161, 21);
+    color: white;
+    margin-top: 42px;
+    cursor: pointer;
+    height: 50px
+}
+#solicitar:hover{
+    transform: scale(1.05);
+    transition-duration: 500ms;
+}
+#c2Text{
+    width: 580px;
+    height: 400px;
+    padding: 30px;
+    margin-left: 24%;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 1px 2px 3px #535353;
+    text-align: justify;
+    margin-top: 100px;
+}
+#c2Text h2{
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 70px;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    border-left: 4px solid rgba(94, 68, 14, 0.822);
+}
+#c2Text h2::first-line{
+    color: rgb(116, 122, 99);
+}
+#sup{
+    width: 30px;
+    float: left;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+.midIcon{
+    display: inline-block;
+    padding: 5px
+}
+#sec{
+    width: 30px;
+    margin-right: 10px;
+    float: left;
+}
+#leal{
+    width: 32px;
+    margin-right: 10px;
+    float: left;
+}
+#prox{
+    width: 40px;
+    float: left;
+    margin-top: -5px;
+    margin-right: 40px;
+}
+#sobre{
+    margin-top: 70px;
+    cursor: pointer;
+}
+#sobre span:hover{
+    filter: brightness(300%);
+}
+.difere{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    text-align: center;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px black;
+}
+.rect{
+    width: 300px;
+    height: 300px;
+    margin-top: -50px;
+    border-radius: 15px;
+}
+.rect:hover{
+    transform:translateY(30px);
+}
+.rect p{
+    font-size: 14px;
+    text-align: justify;
+}
+.rect h4{
+    font-size: 18px;
+    margin-top: -10px;
+}
+.rect h4, p{
+    padding: 20px;
+}
+.i1{
+    background-color: rgb(94, 102, 75);
+    margin-right: 20px;
+}  
+.i2{
+       background-color:rgb(94, 102, 75);
+} 
+.i3{
+       background-color: rgb(94, 102, 75);
+       margin-left: 20px;
+}
+.cardIcon{
+    width: 100px;
+    background-color:rgb(94, 102, 75) ;
+    margin-top: -40px;
+    border-radius: 100%;
+    padding: 20px;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+}
+.i4{
+    width: 980px;
+    height: 50px;
+    margin: auto;
+    font-family: 'STIX Two Text';
+    margin-top: 80px;
+}
+.i4 p{
+    color:rgb(94, 102, 75);
+    font-size: 16px;
+    margin-left: -10px;
+    font-weight: 600;
+}
+.i4 h3{
+    color: black;
+    font-size: 46px;
+    margin-top: -5px;
+}
+.conteiner2{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 1032px;
+    margin: auto;
+    margin-top: 150px;
+}
+.services{
+    width: 300px;
+    height: 250px;
+    border: 2px solid #4a4958;
+    margin: 20px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    cursor: pointer;
+    color: #4a4958;
+}
+.services:hover{
+    border: 2px solid rgb(94, 102, 75);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 80px;
+    transition-duration: 1s;
+}
+.services h4, p{
+    margin-top: 0px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.services h4{
+    font-size: 18px;
+}
+.services p {
+    font-size: 14px;
+    margin-top: -5px;
+}
+.mais{
+    padding: 10px; 
+}
+.services img{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    width: 25px;
+    float: left;
+}
+.servicesIcon{
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-left: 25px;
+}
+.services span{
+    float: left;
+}
+.i14{
+    text-align: center;
+}
+#mServices{
+    margin: auto;
+    margin-left: 6px;
+    background-color: white;
+    border-radius: 0px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid rgb(94, 67, 14);
+    margin-top: 20px;
+    color:  rgba(94, 68, 14, 0.822);
+}
+#mServices:hover{
+    background-color:rgba(94, 67, 14, 0.705) ;
+    color: white;
+}
+.adv{
+    width: 392px; 
+    height: 435px;
+}
+.i15{
+    width: 100%;
+    background-color: rgb(94, 102, 75) ;
+    height: 600px;
+}
+.mapouter{
+    padding-top: 50px;
+}
+footer{
+    background-color: #2b2b33;
+    color: white;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: center;
+}
+.foot{
+    height: 180px;
+    width: 700px;
+    padding-top: 50px;
+    font-size: 18px;
+}
+.iconFoot{
+    padding-right:20px;
+    width: 120px;
+    float: left;
+}
+.cell{
+    align-self: center;
+}
+.cell span{
+    font-size: 30px;
+}
+iframe{
+    width: 80%;
+    height: 500px;
+}
+
+@media screen and (max-width: 1236px) {
+
+    #c2Text{
+        margin-left: 0px;
+    }
+    .logo{
+        width: 70px;
+    }
+    .adv{
+    width: 292px; 
+    height: 335px;
+    }
+    .fsp{
+        font-size: 13px;
+    }
+    .fsh{
+        font-size: 16px;
+    }
+
+@media screen and (max-width: 930px){
+
+    #c2Text{
+        width: 400px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    #c2Text h2{
+        font-size: 48px; 
+    }
+    .conteiner2{
+        width: 100%;
+    }
+    .services{
+        margin: auto;
+        margin-top: 30px;
+    }
+    iframe{
+        width: 80%;
+        height: 500px;
+    }
+    .gmap_canvas{
+        width: 100px;
+        background-color: aqua;
+    }
+    .i4{
+        width: 80%;
+    }
+    .i4 h3{
+        font-size: 36px;
+    }
+    
+@media screen and (max-width: 685px){
+
+    .c2{
+        height: 700px;
+        margin-top: 0;
+    }
+    #c2Text{
+        margin: auto;
+        margin-top: 100px;
+        text-align: start;
+    }
+
+    input, select{
+        width: 290px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #solicitar{
+        margin-left: 50px;
+    }
+
+    .topForm h3 {
+        font-size: 20px;
+    }
+
+    .formulario{
+        width: 380;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .userIcon{
+        height: 25px;
+        width: 25px;
+        float: left;
+        margin-left: 15px;
+    }
+    .user{
+        width: 400px;
+        height: 75px;
+    }
+
+    .difere{
+        flex-wrap: wrap;
+    }
+    .rect{
+        margin: auto;
+        margin-top: 50px;
+    }
+    #cel{
+        margin-top: 40px;
+    }
+    #cel span{
+        font-size: 22px;
+    }
+    .foot{
+        padding-top: 50px;
+        text-align: start;
+        font-size: 12px;
+    }
+    .iconFoot{
+        padding-right:20px;
+        width: 100px;
+    }
+
+}
