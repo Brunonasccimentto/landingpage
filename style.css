@@ -9,6 +9,9 @@ html{
 .montserrat{
     font-family:  Montserrat, sans-serif;
 }
+.navbar-toggler{
+ margin-right: 10px ;
+}
 .c2{
     height: 800px;
     background-image: url(./assets/s8.jpg);
